@@ -1,7 +1,11 @@
 # WRO2025_Randomization_Junior
-Randomization App for WRO2025 RoboMission Junior
 
-Download and unzip the zip file.
+This is a Randomization App for WRO2025 RoboMission Junior.
 
-The zip file contains only the file “WRO2025_Randomization_Junior.exe”.
 This application has been tested on Windows 11.
+
+---------------------------------------
+
+これは、WRO2025 RoboMission Juniorのための抽選ソフトです。
+
+Windows 11での動作を確認しています。
