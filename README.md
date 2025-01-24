@@ -1,4 +1,4 @@
-# WRO2025_Randomization_Junior
+# [WRO2025_Randomization_Junior](https://github.com/Taiyo327/WRO2025_Randomization_Junior)
 
 This is a Randomization App for WRO2025 RoboMission Junior.
 
