@@ -1,3 +1,19 @@
+# Python標準
 __pycache__/
 *.pyc
-.DS_Store
+
+# PyInstaller出力物
+dist/
+build/
+*.spec
+
+# VSCode, PyCharm などエディタ/IDEのごみ
+.vscode/
+.idea/
+
+# Windowsのゴミ
+Thumbs.db
+desktop.ini
+
+# ログやその他
+*.log

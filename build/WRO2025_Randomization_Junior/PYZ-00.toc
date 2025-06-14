@@ -1,4 +1,5 @@
-('C:\\Users\\ktaiy\\Junior\\build\\WRO2025_Randomization_Junior\\PYZ-00.pyz',
+('C:\\Users\\ktaiy\\OneDrive - '
+ '公立大学法人大阪\\03_LEGO\\WRO2025\\Randomization\\WRO2025_Randomization_Junior\\build\\WRO2025_Randomization_Junior\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\ktaiy\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),

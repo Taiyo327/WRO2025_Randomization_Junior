@@ -1,5 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+import os
+import glob
 
 a = Analysis(
     ['WRO2025_Randomization_Junior.py'],
@@ -15,11 +17,9 @@ a = Analysis(
     optimize=0,
 )
 
-a.datas += [('Junior_map.png', '.\\Junior_map.png', 'DATA'),
-            ('green.png', '.\\green.png', 'DATA'),
-            ('red.png', '.\\red.png', 'DATA'),
-            ('yellow.png', '.\\yellow.png', 'DATA'),
-            ('white.png', '.\\white.png', 'DATA')]
+for filepath in glob.glob('img/*'):
+    if os.path.isfile(filepath):
+        a.datas += [(os.path.join('img', os.path.basename(filepath)), filepath, 'DATA')]
 
 pyz = PYZ(a.pure)
 
